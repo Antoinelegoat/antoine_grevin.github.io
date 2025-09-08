@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Antoine Grévin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Mon Portfolio</h1>
+        <div class="logo">Grévin Antoine</div>
         <nav>
             <ul>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sem1">Semestre 1</a></li>
+                <li><a href="#sem2">Semestre 2</a></li>
+                <li><a href="#sem3">Semestre 3</a></li>
+                <li><a href="#sem4">Semestre 4</a></li>
+                <li><a href="#sem5">Semestre 5</a></li>
+                <li><a href="#sem6">Semestre 6</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="apropos">
-        <h2>À propos de moi</h2>
-        <p>Bonjour, je suis développeur web passionné par la création de sites et applications modernes.</p>
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Portfolio</h1>
     </section>
 
-    <section id="projets">
-        <h2>Mes projets</h2>
-        <div class="projet">
-            <h3>Projet 1</h3>
-            <p>Description courte du projet 1.</p>
-        </div>
-        <div class="projet">
-            <h3>Projet 2</h3>
-            <p>Description courte du projet 2.</p>
-        </div>
-        <div class="projet">
-            <h3>Projet 3</h3>
-            <p>Description courte du projet 3.</p>
+    <!-- Introduction -->
+    <section class="intro">
+        <h2>Bonjour,</h2>
+        <p>
+            Je m'appelle <b>Antoine Grévin</b>, je suis étudiant de première année en réseaux et télécommunications 
+            à l’Institut Universitaire de Technologie de Béthune compris dans l’Université d’Artois.
+        </p>
+    </section>
+
+    <!-- SAE Example -->
+    <section id="sem1" class="sae">
+        <h3>SAE1.01 - Se sensibiliser à l'hygiène informatique et à la cybersécurité</h3>
+        <div class="sae-content">
+            <p>
+                J’ai suivi le MOOC proposé par l’ANSSI et le cours "Introduction à la cybersécurité" sur Netacad.
+                Ces cours m’ont permis d’acquérir des notions sur les risques numériques, les bonnes pratiques de sécurité et 
+                les contre-mesures adaptées. J’ai obtenu les attestations de réussite pour ces deux formations.
+            </p>
+            <p>
+                L’objectif de cette SAE consiste à se mettre dans la peau d’un Responsable de la Sécurité des Systèmes 
+                d’Information (RSSI) d’une entreprise, où nous devons sensibiliser le personnel au risque numérique.
+            </p>
+            <p>
+                Lors de cette SAE nous avons présenté selon nous les 4 bonnes pratiques à avoir et présenté chacune d’entre elles. 
+                Elle a été réalisée en groupe de deux et a duré environ 1 mois.
+            </p>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contactez-moi</h2>
-        <form>
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required />
-
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
-
+    <!-- Footer -->
     <footer>
-        <p>© 2025 Mon Portfolio - Tous droits réservés</p>
+        <p>© 2025 - Antoine Grévin | Portfolio</p>
     </footer>
 </body>
 </html>
